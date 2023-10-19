@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* stili main*/
@@ -23,37 +24,48 @@ section{
     top: 0;
     left: 0;
     z-index: 100;
-    /* DEBUG */
-    background-color: red;
+    background-color: black;
+}
+
+#speaker-view{
+    text-align: right;
+    padding: 10px 3px;
+    color: white;
+}
+
+#text{
+    padding: 0 0 0 5px;
+}
+
+.label{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    margin: 3px;
 }
 
 #main-content{
     padding: 60px 0 90px;
-    width: 85%;
+    max-width: 85%;
     height: auto;
     margin: 0 auto;
     overflow-y: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: black;
-    /* DEBUG
-    height: 600px;
-    background-color: yellow; */
 }
 
 .figure{
-    width: calc((100% / 7) - 10px);
-    margin: 5px;
+    width: 150px;
+    margin: 5px 2px;
     display: flex;
     position: relative;
     background-image: url(https://fastly.picsum.photos/id/54/3264/2176.jpg?hmac=blh020fMeJ5Ru0p-fmXUaOAeYnxpOPHnhJojpzPLN3g);
     background-size: cover;
     background-position: center;
     height: 100px;
-    /* DEBUG */
-    /* background-color: blue; */
-
-    
 }
 
 .image-text{

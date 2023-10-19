@@ -85,6 +85,54 @@ section{
     bottom: 0;
     left: 0;
     z-index: 100;
-    /* DEBUG */
-    background-color: green;
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+}
+
+.col-footer{
+    flex-basis: 15%;
+    padding-left: 20px;
+    display: flex;
+}
+
+#main-actions{
+    color: white;
+    padding: 5px;
+    display: flex;
+}
+
+.icons{
+    font-size: 20px;
+}
+
+.text-icons{
+    line-height: 20px;
+}
+
+.actions{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.col-footer.big{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-footer.end{
+    justify-content: right;
+}
+
+#end{
+    color: red;
+    background-color: grey;
+    height: 70px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
